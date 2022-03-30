@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shooter JS</title>
+    <link rel="stylesheet" href="./styles/custom.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <section>
+      <h2>Data</h2>
+      <dl>
+        <dt>Posicion X</dt>
+        <dd id="detalle-x">0</dd>
+        <dt>Posicion Y</dt>
+        <dd id="detalle-y">0</dd>
+        <dt>Puntos</dt>
+        <dd id="detalle-puntos">0</dd>
+      </dl>
+      <button onclick="startGame()">EMPEZAR</button>
+    </section>
+
+    <section>
+      <h2>Playground</h2>
+      <div id="game-area">
+        <div class="nave" id="boss"></div>
+        <div class="nave enemy" id="enemy-1"></div>
+        <div class="nave enemy" id="enemy-2"></div>
+        <div class="nave enemy" id="enemy-3"></div>
+      </div>
+    </section>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
